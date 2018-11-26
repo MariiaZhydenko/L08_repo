@@ -1,0 +1,9 @@
+C:\Users\mariia_zhydenko\Desktop\home\L08_repo\L08_project\L08_project\bin\Debug\L08_project.dacpac
+C:\Users\mariia_zhydenko\Desktop\home\L08_repo\L08_project\L08_project\bin\Debug\L08_project.dll
+C:\Users\mariia_zhydenko\Desktop\home\L08_repo\L08_project\L08_project\bin\Debug\L08_project.pdb
+C:\Users\mariia_zhydenko\Desktop\home\L08_repo\L08_project\L08_project\obj\Debug\L08_project.dll
+C:\Users\mariia_zhydenko\Desktop\home\L08_repo\L08_project\L08_project\obj\Debug\L08_project.pdb
+C:\Users\mariia_zhydenko\Desktop\home\L08_repo\L08_project\L08_project\obj\Debug\Model.xml
+C:\Users\mariia_zhydenko\Desktop\home\L08_repo\L08_project\L08_project\obj\Debug\refactor.xml
+C:\Users\mariia_zhydenko\Desktop\home\L08_repo\L08_project\L08_project\obj\Debug\postdeploy.sql
+C:\Users\mariia_zhydenko\Desktop\home\L08_repo\L08_project\L08_project\obj\Debug\predeploy.sql
