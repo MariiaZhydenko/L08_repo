@@ -11,5 +11,12 @@ D:\STUDY\eleks_maiin\L08_repo\L08_project\L08_project\bin\Debug\L08_project.dacp
 D:\STUDY\eleks_maiin\L08_repo\L08_project\L08_project\bin\Debug\L08_project.dll
 D:\STUDY\eleks_maiin\L08_repo\L08_project\L08_project\bin\Debug\L08_project.pdb
 D:\STUDY\eleks_maiin\L08_repo\L08_project\L08_project\obj\Debug\L08_project.sqlprojAssemblyReference.cache
+<<<<<<< HEAD
+=======
+D:\STUDY\eleks_maiin\L08_repo\L08_project\L08_project\obj\Debug\Model.xml
+D:\STUDY\eleks_maiin\L08_repo\L08_project\L08_project\obj\Debug\refactor.xml
+D:\STUDY\eleks_maiin\L08_repo\L08_project\L08_project\obj\Debug\postdeploy.sql
+D:\STUDY\eleks_maiin\L08_repo\L08_project\L08_project\obj\Debug\predeploy.sql
+>>>>>>> 0d6746d2aac094df7f2fe63d5f8d06860f234c71
 D:\STUDY\eleks_maiin\L08_repo\L08_project\L08_project\obj\Debug\L08_project.dll
 D:\STUDY\eleks_maiin\L08_repo\L08_project\L08_project\obj\Debug\L08_project.pdb
