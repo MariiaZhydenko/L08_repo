@@ -12,7 +12,7 @@
 		</CustomData>
 		<CustomData Category="Reference" Type="Assembly">
 			<Metadata Name="LogicalName" Value="L08_project.dll" />
-			<Metadata Name="FileName" Value="C:\USERS\MARIIA_ZHYDENKO\DESKTOP\HOME\L08_REPO\L08_PROJECT\L08_PROJECT\OBJ\DEBUG\L08_PROJECT.DLL" />
+			<Metadata Name="FileName" Value="D:\STUDY\ELEKS_MAIIN\L08_REPO\L08_PROJECT\L08_PROJECT\OBJ\DEBUG\L08_PROJECT.DLL" />
 			<Metadata Name="AssemblyName" Value="L08_project" />
 			<Metadata Name="PermissionSet" Value="SAFE" />
 			<Metadata Name="Owner" Value="" />
@@ -20,7 +20,7 @@
 			<Metadata Name="IsVisible" Value="True" />
 			<Metadata Name="IsModelAware" Value="True" />
 			<Metadata Name="SkipCreationIfEmpty" Value="True" />
-			<Metadata Name="AssemblySymbolsName" Value="C:\Users\mariia_zhydenko\Desktop\home\L08_repo\L08_project\L08_project\obj\Debug\L08_project.pdb" />
+			<Metadata Name="AssemblySymbolsName" Value="D:\STUDY\eleks_maiin\L08_repo\L08_project\L08_project\obj\Debug\L08_project.pdb" />
 		</CustomData>
 		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable">
 			<Metadata Name="DBVersion" Value="" />
@@ -1675,7 +1675,7 @@ begin try
 set nocount, xact_abort on
 
 if isnull(@SupplierName,'') = ''
-	throw 50000, 'Invalid parameter', 1
+	throw 50000, 'Invalid parameter oops 1', 1
 
 insert into dbo.Suppliers (SupplierName)
 values (@SupplierName)
@@ -1722,7 +1722,7 @@ end catch]]></Value>
 			</Relationship>
 			<Annotation Type="SysCommentsObjectAnnotation">
 				<Property Name="CreateOffset" Value="2" />
-				<Property Name="Length" Value="291" />
+				<Property Name="Length" Value="298" />
 				<Property Name="StartLine" Value="1" />
 				<Property Name="StartColumn" Value="1" />
 				<Property Name="HeaderContents" Value="&#xD;&#xA;create procedure dbo.UpsertSupplier @SupplierName varchar(50)&#xD;&#xA;as" />
