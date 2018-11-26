@@ -7,3 +7,9 @@ C:\Users\mariia_zhydenko\Desktop\home\L08_repo\L08_project\L08_project\obj\Debug
 C:\Users\mariia_zhydenko\Desktop\home\L08_repo\L08_project\L08_project\obj\Debug\refactor.xml
 C:\Users\mariia_zhydenko\Desktop\home\L08_repo\L08_project\L08_project\obj\Debug\postdeploy.sql
 C:\Users\mariia_zhydenko\Desktop\home\L08_repo\L08_project\L08_project\obj\Debug\predeploy.sql
+D:\STUDY\eleks_maiin\L08_repo\L08_project\L08_project\bin\Debug\L08_project.dacpac
+D:\STUDY\eleks_maiin\L08_repo\L08_project\L08_project\bin\Debug\L08_project.dll
+D:\STUDY\eleks_maiin\L08_repo\L08_project\L08_project\bin\Debug\L08_project.pdb
+D:\STUDY\eleks_maiin\L08_repo\L08_project\L08_project\obj\Debug\L08_project.sqlprojAssemblyReference.cache
+D:\STUDY\eleks_maiin\L08_repo\L08_project\L08_project\obj\Debug\L08_project.dll
+D:\STUDY\eleks_maiin\L08_repo\L08_project\L08_project\obj\Debug\L08_project.pdb
