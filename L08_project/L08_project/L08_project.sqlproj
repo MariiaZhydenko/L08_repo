@@ -14,7 +14,7 @@
     </RootPath>
     <RootNamespace>L08_project</RootNamespace>
     <AssemblyName>L08_project</AssemblyName>
-    <ModelCollation>1033, CI</ModelCollation>
+    <ModelCollation>1033,CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
@@ -23,6 +23,8 @@
     <SqlServerVerification>False</SqlServerVerification>
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
     <TargetDatabaseSet>True</TargetDatabaseSet>
+    <DefaultCollation>Latin1_General_100_CI_AS</DefaultCollation>
+    <DefaultFilegroup>PRIMARY</DefaultFilegroup>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -57,5 +59,40 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="dbo\Views\" />
+    <Folder Include="Storage\" />
+    <Folder Include="dbo\Stored Procedures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\Medicines.sql" />
+    <Build Include="dbo\Tables\Suppliers.sql" />
+    <Build Include="dbo\Tables\Customers.sql" />
+    <Build Include="dbo\Tables\PurchaseInvoicesHeader.sql" />
+    <Build Include="dbo\Tables\PurchaseInvoicesLine.sql" />
+    <Build Include="dbo\Tables\OrdersHeader.sql" />
+    <Build Include="dbo\Tables\OrdersLine.sql" />
+    <Build Include="dbo\Tables\StockChanges.sql" />
+    <Build Include="dbo\Views\StocksView.sql" />
+    <Build Include="Storage\secondary.sql" />
+    <Build Include="dbo\Stored Procedures\UpsertMedicine.sql" />
+    <Build Include="dbo\Stored Procedures\UpsertSupplier.sql" />
+    <Build Include="dbo\Stored Procedures\UpsertCustomer.sql" />
+    <Build Include="dbo\Stored Procedures\UpsertPurchaseInvoice.sql" />
+    <Build Include="dbo\Stored Procedures\UpsertOrder.sql" />
+    <Build Include="dbo\Tables\DBVersion.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="DBVersion">
+      <DefaultValue>1</DefaultValue>
+      <Value>$(SqlCmdVar__1)</Value>
+    </SqlCmdVariable>
+  </ItemGroup>
+  <ItemGroup>
+    <PreDeploy Include="Script.PreDeployment1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment1.sql" />
   </ItemGroup>
 </Project>

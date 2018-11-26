@@ -2,5 +2,6 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TargetDatabase>L08_project_1</TargetDatabase>
+    <SqlCmdVar__1>1</SqlCmdVar__1>
   </PropertyGroup>
 </Project>
