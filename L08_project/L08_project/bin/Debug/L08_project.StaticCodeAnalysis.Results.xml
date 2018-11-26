@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Problems>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0008</Rule>
+    <ProblemDescription>Potential misuse of system function @@IDENTITY.</ProblemDescription>
+    <SourceFile>C:\Users\mariia_zhydenko\Desktop\home\L08_repo\L08_project\L08_project\dbo\Stored Procedures\UpsertOrder.sql</SourceFile>
+    <Line>29</Line>
+    <Column>23</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0008</Rule>
+    <ProblemDescription>Potential misuse of system function @@IDENTITY.</ProblemDescription>
+    <SourceFile>C:\Users\mariia_zhydenko\Desktop\home\L08_repo\L08_project\L08_project\dbo\Stored Procedures\UpsertPurchaseInvoice.sql</SourceFile>
+    <Line>30</Line>
+    <Column>33</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+</Problems>

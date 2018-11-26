@@ -1,0 +1,43 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [secondary] (Filegroup)
+       [dbo].[Customers] (Table)
+       [dbo].[Customers].[IX_OrdersHeader_CustomerId] (Index)
+       [dbo].[DBVersion] (Table)
+       [dbo].[Medicines] (Table)
+       [dbo].[Medicines].[IX_OrdersLine_MedicineId] (Index)
+       [dbo].[OrdersHeader] (Table)
+       [dbo].[OrdersLine] (Table)
+       [dbo].[PurchaseInvoicesHeader] (Table)
+       [dbo].[PurchaseInvoicesHeader].[IX_PurchaseInvoicesHeader_SupplierId] (Index)
+       [dbo].[PurchaseInvoicesLine] (Table)
+       [dbo].[PurchaseInvoicesLine].[IX_PurchaseInvoicesLine_MedicineId] (Index)
+       [dbo].[StockChanges] (Table)
+       [dbo].[Suppliers] (Table)
+       [dbo].[FK_OrdersHeader_CustomerId] (Foreign Key)
+       [dbo].[FK_OrdersLine_MedicineId] (Foreign Key)
+       [dbo].[FK_OrdersLine_OrderHeaderID] (Foreign Key)
+       [dbo].[FK_PurchaseInvoicesHeader_SupplierId] (Foreign Key)
+       [dbo].[FK_PurchaseInvoicesLine_MedicineId] (Foreign Key)
+       [dbo].[FK_PurchaseInvoicesLine_PurchaseInvoiceHeaderID] (Foreign Key)
+       [dbo].[CK_OrdersLineLine] (Check Constraint)
+       [dbo].[CK_PurchaseInvoicesLine] (Check Constraint)
+       [dbo].[StocksView] (View)
+       [dbo].[StocksView].[IX_StockView] (Index)
+       [dbo].[UpsertCustomer] (Procedure)
+       [dbo].[UpsertMedicine] (Procedure)
+       [dbo].[UpsertOrder] (Procedure)
+       [dbo].[UpsertPurchaseInvoice] (Procedure)
+       [dbo].[UpsertSupplier] (Procedure)
+
+** Supporting actions
